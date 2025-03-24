@@ -5,16 +5,31 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 
-//funzione normale
-function vowelsCounter(string) {
+// //funzione normale
+// function vowelsCounter(string) {
+//     let counter = 0
+
+//     for (let i = 0; i < string.length; i++) {
+
+//         if (string[i].toLowerCase() === "a" || string[i].toLowerCase() === "e" || string[i].toLowerCase() === "i" || string[i].toLowerCase() === "o" || string[i].toLowerCase() === "u") {
+//             counter++
+//         }
+
+//     }
+
+//     return counter
+// }
+
+//arrow function
+const vowelsCounter = (string) => {
     let counter = 0
 
     for (let i = 0; i < string.length; i++) {
-        
+
         if (string[i].toLowerCase() === "a" || string[i].toLowerCase() === "e" || string[i].toLowerCase() === "i" || string[i].toLowerCase() === "o" || string[i].toLowerCase() === "u") {
             counter++
         }
-        
+
     }
 
     return counter
