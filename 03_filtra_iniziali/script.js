@@ -5,19 +5,36 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-//funzione normale
-function startsWith(array, x) {
+// //funzione normale
+// function startsWith(array, x) {
+//     const startsWithArr = []
+
+//     for (let i = 0; i < array.length; i++) {
+
+//         if (array[i][0] === x) {
+//             startsWithArr.push(array[i])
+//         }
+
+//     }
+
+//     return startsWithArr
+// }
+
+//arrow function
+const startsWith = (array, x) => {
+
     const startsWithArr = []
 
     for (let i = 0; i < array.length; i++) {
-
+        
         if (array[i][0] === x) {
             startsWithArr.push(array[i])
         }
-
+        
     }
 
     return startsWithArr
+
 }
 
 
