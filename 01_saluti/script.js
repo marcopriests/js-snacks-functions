@@ -5,10 +5,13 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-//funzione normale
-function greetings(string) {
-    return "Ciao " + string
-}
+// //funzione normale
+// function greetings(string) {
+//     return "Ciao " + string
+// }
+
+//arrow function
+const greetings = (string) => "Ciao " + string
 
 
 // Invoca la funzione qui e stampa il risultato in console
