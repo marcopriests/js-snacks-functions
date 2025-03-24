@@ -10,14 +10,27 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
-//funzione normale
-function greetingsByTime(string) {
+// //funzione normale
+// function greetingsByTime(string) {
+//     const d = new Date()
+
+//     if (d.getHours <= 13) {
+//         return "Buongiorno " + string
+//     } else if (d.getHours <= 17) {
+//         return "Buon pomeriggio " + string        
+//     } else {
+//         return "Buonasera " + string
+//     }
+// }
+
+//arrow function
+const greetingsByTime = (string) => {
     const d = new Date()
 
     if (d.getHours <= 13) {
         return "Buongiorno " + string
     } else if (d.getHours <= 17) {
-        return "Buon pomeriggio " + string        
+        return "Buon pomeriggio " + string
     } else {
         return "Buonasera " + string
     }
